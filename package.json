@@ -1,0 +1,44 @@
+{
+  "name": "express-prisma-starter",
+  "version": "1.0.0",
+  "description": "Typescript powered express & prisma starter",
+  "main": "index.ts",
+  "author": "53NX-8",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "dev": "nodemon",
+    "migrate": "prisma migrate dev",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@prisma/client": "^5.9.1",
+    "config": "^3.3.11",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.4",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "@types/config": "^3.3.3",
+    "@types/cookie-parser": "^1.4.6",
+    "@types/cors": "^2.8.17",
+    "@types/express": "^4.17.21",
+    "@types/jest": "^29.5.12",
+    "@types/morgan": "^1.9.9",
+    "@types/node": "^20.11.19",
+    "@types/supertest": "^6.0.2",
+    "envalid": "^8.0.0",
+    "jest": "^29.7.0",
+    "morgan": "^1.10.0",
+    "nodemon": "^3.0.3",
+    "prisma": "^5.9.1",
+    "supertest": "^6.3.4",
+    "ts-jest": "^29.1.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  },
+  "prisma": {
+    "schema": "src/prisma/schema.prisma"
+  }
+}
